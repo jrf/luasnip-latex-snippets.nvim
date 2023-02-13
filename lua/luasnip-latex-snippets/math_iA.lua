@@ -99,6 +99,8 @@ local math_iA = {
   ls.parser.parse_snippet({ trig = "RR", name = "R" }, "\\mathbb{R}"),
   ls.parser.parse_snippet({ trig = "QQ", name = "Q" }, "\\mathbb{Q}"),
   ls.parser.parse_snippet({ trig = "ZZ", name = "Z" }, "\\mathbb{Z}"),
+  ls.parser.parse_snippet({ trig = "CC", name = "C" }, "\\mathbb{C}"),
+  ls.parser.parse_snippet({ trig = "CF", name = "1" }, "\\mathbb{1}"),
   ls.parser.parse_snippet({ trig = "UU", name = "cup" }, "\\cup "),
   ls.parser.parse_snippet({ trig = "NN", name = "n" }, "\\mathbb{N}"),
   ls.parser.parse_snippet({ trig = "||", name = "mid" }, " \\mid "),
